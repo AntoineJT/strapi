@@ -7,6 +7,7 @@ import listComponents from './actions/components/list/command';
 import configurationDump from './actions/configuration/dump/command';
 import configurationRestore from './actions/configuration/restore/command';
 import consoleCommand from './actions/console/command';
+import databaseCreateMigration from './actions/database/create-migration/command'
 import listContentTypes from './actions/content-types/list/command';
 import listControllers from './actions/controllers/list/command';
 import generateCommand from './actions/generate/command';
@@ -46,6 +47,7 @@ const strapiCommands = {
   consoleCommand,
   listContentTypes,
   listControllers,
+  databaseCreateMigration,
   generateCommand,
   listHooks,
   installCommand,
